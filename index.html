@@ -10,14 +10,29 @@ div {text-align: center;}
 #form1 {
     margin-top: 30px;
 }
-#form {border-radius: 25%;}
+a {
+    color: gray;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.head2 {float: right;}
+.head1 {float: left;}
 
     </style>
     <div>
-        <header style="text-align: left">
+        <header class="head1" style="text-align: left">
         <a href="#">About</a>
         <a href="#">Store</a>
         </header>
+        <header style="text-align: right" class="head2">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        </header>
+        
+           
+        
     <img id="Gimage" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
     <form id="form1">
         <input id="form" type="text" placeholder="Search...">
